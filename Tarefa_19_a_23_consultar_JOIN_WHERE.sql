@@ -1,8 +1,3 @@
--- SQLite
-SELECT * FROM LOCATIONS;
-SELECT * from CARS;
-SELECT * from CUSTOMERS;
-SELECT * from EMPLOYEES;
 --19 - Construa uma consulta capaz de exibir somente os clientes 
 --que realizaram mais ou igual a 2 locações.
 SELECT 
@@ -61,7 +56,6 @@ JOIN EMPLOYEES AS E ON (L.EMPLOYEE_ID = E.ID);
 
 --23 - Construa uma consulta capaz de exibir todas as locações realizadas, 
 --entre as datas “2022-05-20” a “2022-12-25”
-
 SELECT * FROM LOCATIONS
 WHERE (START_DATE BETWEEN '2022-05-20' AND '2022-12-25') 
 OR (END_DATE BETWEEN '2022-05-20' AND '2022-12-25');
@@ -80,4 +74,3 @@ JOIN CARS ON (L.CAR_ID = CARS.ID)
 JOIN CUSTOMERS AS C ON (L.CUSTOMER_ID = C.ID)
 JOIN EMPLOYEES AS E ON (L.EMPLOYEE_ID = E.ID)
 WHERE (START_DATE BETWEEN '2022-05-20' AND '2022-12-25') OR (END_DATE BETWEEN '2022-05-20' AND '2022-12-25');
-

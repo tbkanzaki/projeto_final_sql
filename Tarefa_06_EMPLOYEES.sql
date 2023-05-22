@@ -1,7 +1,6 @@
 -- SQLite
 --6- Construa uma query SQL para criar a tabela EMPLOYEES (Funcionários) no banco de dados, 
 --e logo em seguida insira os funcionários abaixo:
-
 CREATE TABLE EMPLOYEES (
     ID INTEGER PRIMARY KEY AUTOINCREMENT,
     NAME VARCHAR(250) NOT NULL,
@@ -20,5 +19,3 @@ VALUES
 ('Mayara Gomes','(11) 92649-9601','2016-07-18',2),
 ('Matheus Alves','(11) 92749-9602','2015-03-04',5),
 ('Aline Santos','(11) 99789-3135','2022-05-06',3);
-
-SELECT * from EMPLOYEES;

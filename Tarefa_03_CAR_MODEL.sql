@@ -18,6 +18,3 @@ VALUES
 ('Minivan'),
 ('Utilitário'),
 ('Buggy');
-
-
-SELECT * FROM CAR_MODEL;

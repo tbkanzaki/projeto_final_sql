@@ -1,7 +1,6 @@
 -- SQLite
 --7- Construa uma query SQL para criar a tabela CARS (Carros) no banco de dados, 
 --e logo em seguida insira os automóveis abaixo:
-
 CREATE TABLE CARS (
     ID INTEGER PRIMARY KEY AUTOINCREMENT,
     NAME VARCHAR(250) NOT NULL,
@@ -24,5 +23,3 @@ VALUES
 ('Fiat Cronos',2022,'Preto',2500,'Liberado',8,2),
 ('Honda HR-V',2018,'Prata',40000,'Em manutenção',7,6),
 ('VW Amarok',2019,'Prata',25000,'Liberado',	4,6);
-
-SELECT * from CARS;
